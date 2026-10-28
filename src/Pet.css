@@ -1,0 +1,167 @@
+.pet-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.pet-header h1 {
+  color: #243836;
+  font-size: 24px;
+  margin: 0;
+}
+
+.btn-primary {
+  background-color: #52796F;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: #3e5c53;
+}
+
+.pet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.pet-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(36, 56, 54, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.pet-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 2px solid #52796F;
+}
+
+.pet-card h3 {
+  color: #243836;
+  margin: 0 0 4px 0;
+}
+
+.pet-card p {
+  color: #666;
+  font-size: 13px;
+  margin: 0 0 16px 0;
+}
+
+.pet-actions {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.btn-outline {
+  flex: 1;
+  background: transparent;
+  border: 1px solid #52796F;
+  color: #52796F;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: #f0f4f3;
+}
+
+.btn-danger {
+  background: transparent;
+  border: 1px solid #D9534F;
+  color: #D9534F;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background: #fde8e8;
+}
+
+.pet-form-card {
+  background: #FFFFFF;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 16px rgba(36, 56, 54, 0.08);
+}
+
+.pet-form-card h2 {
+  color: #243836;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #243836;
+  margin-bottom: 6px;
+}
+
+.form-group input, .form-group select {
+  padding: 11px 14px;
+  border: 1px solid #E0E0E0;
+  border-radius: 6px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FAFAFA;
+}
+
+.form-group input:focus, .form-group select:focus {
+  outline: none;
+  border-color: #52796F;
+  background-color: #FFFFFF;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.btn-secondary {
+  flex: 1;
+  background: #E0E0E0;
+  color: #243836;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
